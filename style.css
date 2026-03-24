@@ -1,0 +1,16 @@
+/* Image Oeuf */
+.egg {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  display: block;
+}
+
+.egg:hover {
+  transform: scale(1.05);
+}
+
+.egg:active {
+  transform: scale(0.97);
+}
