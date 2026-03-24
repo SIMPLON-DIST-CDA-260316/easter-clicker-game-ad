@@ -1,5 +1,13 @@
 const egg = document.querySelector('.egg');
 
-egg.addEventListener('click', function() {
-    egg.style.display = 'none';
+setTimeout(
+    function () {
+        egg.style.opacity = '1';
+    },
+    2000
+);
+
+// l'oeuf disparaît au clic
+egg.addEventListener('click', function () {
+    egg.style.opacity = '0';
 });
