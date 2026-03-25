@@ -6,7 +6,7 @@ main {
 }
 
 #backgroundPlay {
-    background: url("/images/green.png") no-repeat;
+    background: url("images/green.png") no-repeat;
     background-size: cover;
     width: 1000px;
     height: 500px;
