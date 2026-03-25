@@ -1,5 +1,5 @@
 const egg = document.querySelector('.egg');
-const tabImages = [];
+const tabImages = ['/images/chocolate-egg.png', '/images/golden-egg.png'];
 const clic = document.querySelector('.clic');
 const timer = document.querySelector('#timer')
 
@@ -36,3 +36,10 @@ setInterval(() => {
   timerElement.innerText = `Compte à rebours : ${minutes}:${secondes}`;
   time = time <= 0 ? 0 : time - 1;
 }, 1000);
+
+
+// Fonction apparition aléatoire
+// function coordonneesAleatoires {
+//     let x;
+//     let y;
+// }
